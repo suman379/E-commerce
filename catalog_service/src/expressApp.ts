@@ -1,5 +1,5 @@
 import express, { NextFunction, Request, Response } from "express";
-import catalogRouter from "./api/catalog.route";
+import catalogRouter from "./api/catalog.routes";
 
 const app = express();
 app.use(express.json());
